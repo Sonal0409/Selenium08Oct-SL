@@ -1,0 +1,535 @@
+Manually
+
+Test Steps:                                        Expected result 	Actual result
+
+ > Open chrome browser
+ > open the url https://www.wikipedia.org/
+ > enter input in the searchbox 
+ > click on the search button
+ > Click on About wikipedia link
+
+
+Time consuming
+boring, tideous
+repetitive
+error prone
+
+POS : functinlaity for customer order creation
+
+10000 customer order  :  15 mins
+
+10 testers -- more effort
+
+Automation:
+
+Faster
+less dependency on testers
+reliable
+Regression
+Cost
+resusability
+
+
+Automations Testing ---->
+
+> Functional Testing
+
+   > Sanity Testing
+   > Regression Testing
+   > Integration testing
+   > System Testing
+
+ Tool : Selenium, TestNG, Cucumber, Reporting, Log4g, Apache poi, jxl
+
+
+ Tools: GIT, Maven , Selenium, jenkins
+
+
+Scripting: JAVA
+
+> Variables, types of variables
+> if condition, loops
+> Arrays, arraylist
+> exceptions
+> methods, Object
+> OOPS
+
+
+Selenium as an Automation tool
+**************************************
+
+Selenium is an Open source tool
+
+Function testing & Regression testing
+
+Platform independent
+
+Selenium supoort testing on multiple browsers
+
+  > chrome, Firefox, safari, IE, Edge
+
+> cross platform and cross browser testing tool
+
+> Script in selenium > Java, Python, Ruby, C# , perl
+
+> Selenium Web/Enterprise application 
+
+> Selenium --> Appium -- test Mobile applications
+
+
+Components of Selenium:
+********************************************
+
+ Selenium IDE : Record and Playbook tool
+
+1. Simple to use and work with it
+2. no programming required and has GUI to work on
+3. logs the results of the testcase
+4. its a plugin and supports only chrome and FF
+5. parametrization is not possible
+6. synchronization is not  possible
+
+ Selenium WebDriver
+*******************************
+ > you write selenium Scripts using programming language
+
+ > parametrize
+
+  > wait time
+
+ > parallel testing
+
+ > frameworks TestNG
+
+ Selenium GRID
+*********************************
+> Hub & Node
+> execution can be done using grid
+> execute scripts on multiple machines
+> execute on different browserser or different machine/nodes
+> execute scripts parallel on different browserser or different machine/nodes
+
+
+***************************
+
+Selenium Set up
+
+Step 1
+
+JDK : 1.8
+
+Step 2: Eclipse IDE for JAVA developers
+
+Download selenium
+
+2 ways :
+
+manual : java project
+
+automatic : maven project
+
+
+
+
+
+Browser methods()
+*******************
+
+get(URL);
+
+navigate.to(url);
+
+navigate.back()
+
+navigate.forward()
+
+navigate.refresh()
+
+getTitle();
+
+getCurrentUrl();
+
+manage.window.maxamize()
+manage.timeouts().pageLoadTimeout
+manage.deleteallcookies()
+
+close();
+
+***********************************
+
+WebElements:
+*********************
+
+> TextBox/Input box
+
+ to enter data, clear the data, displayed or not, enabled or not
+
+<input type="text" name="firstname">
+
+> Button
+
+Click, dipalyed or not, enabled , it should redirect to a new page
+
+> Checkbox & radio button
+
+available or not, enabled, isSelected() or not, click
+
+***************************************
+
+to test an element on webpage
+
+ selenium :
+ 
+  > which element? what is the address of the element? findElement()
+
+  > Action to be performed on the element: 
+
+     1. enter data : sendKeys("sonal")
+      2. click : click()
+
+
+  driver.findElement(address of the element).sendKeys("selenium123");
+
+  driver.findElement(address of the element).click
+
+
+
+  sonal.findRiya("orchid Petals").deleiver("package");
+
+  sonal.findRiya("orchidpetals flat 5").ringbell();
+
+
+Locators : to find the address of the element on the webpage
+
+
+Car1 : attributes : color=red number=1234 type=auto regNo:iqer456 seater=7 name=Honda
+
+ Car2               color=black number=13456 type=auto regNo:iqer234345 seater=4 name=BMW
+
+ Car3               color=red number=890 type=auto regNo:abc6 seater=2 name=BMW
+
+
+fetch car which are auto = 3
+
+fetch car in red color  = 2
+
+fetch me a car number = 1234 ==> 1
+
+fetch me a car number = 890 ==> 1
+
+fetch me a car regnumber = abc6 ==> 1
+
+
+*******************************
+Locators:
+**********************
+
+
+id = wpName2
+
+id= wpPassword2
+
+name
+
+tagname
+
+class
+
+xpath
+
+cssSelector
+
+linkText
+
+partialLinktext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
