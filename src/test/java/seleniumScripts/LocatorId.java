@@ -29,7 +29,7 @@ public class LocatorId {
 		
  // 4. tagName Locator
 		
-		driver.findElement(By.tagName("input")).sendKeys("Selenium Testing");
+		driver.findElements(By.tagName("input")).get(3).sendKeys("Selenium Testing");
 		
 		
 		
