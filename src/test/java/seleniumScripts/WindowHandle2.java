@@ -57,11 +57,12 @@ public class WindowHandle2 {
 		
 		Thread.sleep(3000);
 		
-		driver.close();  // close child window
+	
 		
 		driver.switchTo().window(parent_window);
 		
 		driver.close();
+		
 		
 		
 		
