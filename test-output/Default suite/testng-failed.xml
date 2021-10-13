@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGScripts.ParameterXML">
+      <class name="assertionsScripts.AssertionsDemo">
         <methods>
-          <include name="MainPageTest"/>
-          <include name="LoginTest"/>
-          <include name="setBrowser"/>
-          <include name="EnterInputTest"/>
-          <include name="SearchPageTest"/>
-          <include name="closeBrowser"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- testNGScripts.ParameterXML -->
+      </class> <!-- assertionsScripts.AssertionsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

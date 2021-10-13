@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [myparametertest]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="wikipage3(failed)">
-    <parameter name="password" value="passwrd12356"/>
-    <parameter name="input1" value="appium Automation"/>
-    <parameter name="username" value="sonal1345"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGScripts.ParameterXML">
+      <class name="assertionsScripts.AssertionsDemo">
         <methods>
-          <include name="MainPageTest"/>
-          <include name="LoginTest"/>
-          <include name="setBrowser"/>
-          <include name="EnterInputTest"/>
-          <include name="SearchPageTest"/>
-          <include name="closeBrowser"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- testNGScripts.ParameterXML -->
+      </class> <!-- assertionsScripts.AssertionsDemo -->
     </classes>
-  </test> <!-- wikipage3(failed) -->
-</suite> <!-- Failed suite [myparametertest] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

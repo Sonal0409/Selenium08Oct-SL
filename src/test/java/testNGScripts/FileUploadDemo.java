@@ -1,4 +1,4 @@
-package instructorScripts;
+package testNGScripts;
 
 import java.io.IOException;
 

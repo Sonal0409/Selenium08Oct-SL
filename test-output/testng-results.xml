@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-13T12:26:02 IST" name="CrossBrowser" finished-at="2021-10-13T12:26:16 IST" duration-ms="14570">
+  <suite started-at="2021-10-13T15:57:00 IST" name="Default suite" finished-at="2021-10-13T15:57:10 IST" duration-ms="9814">
     <groups>
     </groups>
-    <test started-at="2021-10-13T12:26:02 IST" name="CrossBrowserTestChrome" finished-at="2021-10-13T12:26:16 IST" duration-ms="14105">
-      <class name="crossBrowser.CrossbrowserDemo">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossbrowserDemo@4d465b11]" started-at="2021-10-13T12:26:02 IST" name="openBrowser" finished-at="2021-10-13T12:26:08 IST" duration-ms="6367" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2021-10-13T15:57:00 IST" name="Default test" finished-at="2021-10-13T15:57:10 IST" duration-ms="9814">
+      <class name="testNGScripts.UploadFile">
+        <test-method signature="uploadfileDemo()[pri:0, instance:testNGScripts.UploadFile@31e5415e]" started-at="2021-10-13T15:57:00 IST" name="uploadfileDemo" finished-at="2021-10-13T15:57:10 IST" duration-ms="9771" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="dragandDropTest()[pri:0, instance:crossBrowser.CrossbrowserDemo@4d465b11]" started-at="2021-10-13T12:26:08 IST" name="dragandDropTest" finished-at="2021-10-13T12:26:16 IST" duration-ms="7689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragandDropTest -->
-      </class> <!-- crossBrowser.CrossbrowserDemo -->
-    </test> <!-- CrossBrowserTestChrome -->
-    <test started-at="2021-10-13T12:26:02 IST" name="CrossBrowserFF" finished-at="2021-10-13T12:26:16 IST" duration-ms="14570">
-      <class name="crossBrowser.CrossbrowserDemo">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:crossBrowser.CrossbrowserDemo@43dac38f]" started-at="2021-10-13T12:26:02 IST" name="openBrowser" finished-at="2021-10-13T12:26:13 IST" duration-ms="10683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="dragandDropTest()[pri:0, instance:crossBrowser.CrossbrowserDemo@43dac38f]" started-at="2021-10-13T12:26:13 IST" name="dragandDropTest" finished-at="2021-10-13T12:26:16 IST" duration-ms="3853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dragandDropTest -->
-      </class> <!-- crossBrowser.CrossbrowserDemo -->
-    </test> <!-- CrossBrowserFF -->
-  </suite> <!-- CrossBrowser -->
+        </test-method> <!-- uploadfileDemo -->
+      </class> <!-- testNGScripts.UploadFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
