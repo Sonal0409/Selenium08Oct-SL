@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="instructorScripts.ParameterApachePOI">
+      <class name="testNGScripts.ParameterXML">
         <methods>
-          <include name="startbrowser"/>
-          <include name="wikipagedata"/>
+          <include name="MainPageTest"/>
+          <include name="LoginTest"/>
+          <include name="setBrowser"/>
+          <include name="EnterInputTest"/>
+          <include name="SearchPageTest"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- instructorScripts.ParameterApachePOI -->
+      </class> <!-- testNGScripts.ParameterXML -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
