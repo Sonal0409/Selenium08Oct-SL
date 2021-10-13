@@ -2,16 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-13T09:35:50 IST" name="Default suite" finished-at="2021-10-13T09:36:01 IST" duration-ms="10798">
+  <suite started-at="2021-10-13T11:00:23 IST" name="myparametertest" finished-at="2021-10-13T11:00:31 IST" duration-ms="8167">
     <groups>
     </groups>
-    <test started-at="2021-10-13T09:35:50 IST" name="Default test" finished-at="2021-10-13T09:36:01 IST" duration-ms="10798">
-      <class name="testNGScripts.WikiPage">
-        <test-method signature="wikiTest()[pri:0, instance:testNGScripts.WikiPage@31e5415e]" started-at="2021-10-13T09:35:50 IST" name="wikiTest" finished-at="2021-10-13T09:36:01 IST" duration-ms="10758" status="PASS">
+    <test started-at="2021-10-13T11:00:23 IST" name="wikipage1" finished-at="2021-10-13T11:00:31 IST" duration-ms="8167">
+      <class name="testNGScripts.ParameterXML">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testNGScripts.ParameterXML@4d465b11]" started-at="2021-10-13T11:00:23 IST" name="setBrowser" finished-at="2021-10-13T11:00:26 IST" duration-ms="3443" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wikiTest -->
-      </class> <!-- testNGScripts.WikiPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setBrowser -->
+        <test-method signature="EnterInputTest(java.lang.String)[pri:49, instance:testNGScripts.ParameterXML@4d465b11]" started-at="2021-10-13T11:00:26 IST" name="EnterInputTest" finished-at="2021-10-13T11:00:31 IST" duration-ms="4674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jmeter Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputTest -->
+      </class> <!-- testNGScripts.ParameterXML -->
+    </test> <!-- wikipage1 -->
+  </suite> <!-- myparametertest -->
 </testng-results>

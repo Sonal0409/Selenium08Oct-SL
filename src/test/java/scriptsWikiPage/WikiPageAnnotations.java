@@ -1,4 +1,4 @@
-package testNGScripts;
+package scriptsWikiPage;
 
 import java.util.concurrent.TimeUnit;
 

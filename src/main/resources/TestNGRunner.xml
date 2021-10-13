@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="13OCt test" verbose="1">
+ <test name="wikipage1">
+  <classes>
+  <class name="testNGScripts.WikiPageAnnotations"></class>
+  </classes>
+ </test>
+  <test name="TestScenario2">
+  <classes>
+  <class name="testNGScripts.Annotation3"></class>
+  </classes>
+ </test>
+
+
+
+</suite>
+
+ 
