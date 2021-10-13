@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-13T11:00:23 IST" name="myparametertest" finished-at="2021-10-13T11:00:31 IST" duration-ms="8167">
+  <suite started-at="2021-10-13T11:20:45 IST" name="myparametertest" finished-at="2021-10-13T11:21:09 IST" duration-ms="24097">
     <groups>
     </groups>
-    <test started-at="2021-10-13T11:00:23 IST" name="wikipage1" finished-at="2021-10-13T11:00:31 IST" duration-ms="8167">
+    <test started-at="2021-10-13T11:20:45 IST" name="wikipage1" finished-at="2021-10-13T11:20:53 IST" duration-ms="7679">
       <class name="testNGScripts.ParameterXML">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testNGScripts.ParameterXML@4d465b11]" started-at="2021-10-13T11:00:23 IST" name="setBrowser" finished-at="2021-10-13T11:00:26 IST" duration-ms="3443" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testNGScripts.ParameterXML@4d465b11]" started-at="2021-10-13T11:20:45 IST" name="setBrowser" finished-at="2021-10-13T11:20:48 IST" duration-ms="3160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="EnterInputTest(java.lang.String)[pri:49, instance:testNGScripts.ParameterXML@4d465b11]" started-at="2021-10-13T11:00:26 IST" name="EnterInputTest" finished-at="2021-10-13T11:00:31 IST" duration-ms="4674" status="PASS">
+        <test-method signature="EnterInputTest(java.lang.String)[pri:49, instance:testNGScripts.ParameterXML@4d465b11]" started-at="2021-10-13T11:20:48 IST" name="EnterInputTest" finished-at="2021-10-13T11:20:53 IST" duration-ms="4479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,5 +24,43 @@
         </test-method> <!-- EnterInputTest -->
       </class> <!-- testNGScripts.ParameterXML -->
     </test> <!-- wikipage1 -->
+    <test started-at="2021-10-13T11:20:53 IST" name="wikipage2" finished-at="2021-10-13T11:21:01 IST" duration-ms="8118">
+      <class name="testNGScripts.ParameterXML">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testNGScripts.ParameterXML@43dac38f]" started-at="2021-10-13T11:20:53 IST" name="setBrowser" finished-at="2021-10-13T11:20:56 IST" duration-ms="3119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="EnterInputTest(java.lang.String)[pri:49, instance:testNGScripts.ParameterXML@43dac38f]" started-at="2021-10-13T11:20:56 IST" name="EnterInputTest" finished-at="2021-10-13T11:21:01 IST" duration-ms="4996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UFT Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputTest -->
+      </class> <!-- testNGScripts.ParameterXML -->
+    </test> <!-- wikipage2 -->
+    <test started-at="2021-10-13T11:21:01 IST" name="wikipage3" finished-at="2021-10-13T11:21:09 IST" duration-ms="8245">
+      <class name="testNGScripts.ParameterXML">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testNGScripts.ParameterXML@1de76cc7]" started-at="2021-10-13T11:21:01 IST" name="setBrowser" finished-at="2021-10-13T11:21:04 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="EnterInputTest(java.lang.String)[pri:49, instance:testNGScripts.ParameterXML@1de76cc7]" started-at="2021-10-13T11:21:04 IST" name="EnterInputTest" finished-at="2021-10-13T11:21:09 IST" duration-ms="4951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterInputTest -->
+      </class> <!-- testNGScripts.ParameterXML -->
+    </test> <!-- wikipage3 -->
   </suite> <!-- myparametertest -->
 </testng-results>
