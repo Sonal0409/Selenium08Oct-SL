@@ -52,19 +52,7 @@ public class ParameterXML {
 		driver.findElement(By.xpath("//*[@id='mw-head']/descendant::span[6]")).click();
 	}
 	
-	@Parameters({"username","password"})
-	@Test(priority='4')
-	public void LoginTest(String username, String password) throws InterruptedException
-	{
-		String title3=driver.getTitle();
-		System.out.println("Title of LoginPage : "+ title3);
-		
-		driver.findElement(By.xpath("//*[@name='userlogin']/descendant::input[1]")).sendKeys(username);
-		driver.findElement(By.xpath("//*[@name='userlogin']/descendant::input[2]")).sendKeys(password);
-		
-		Thread.sleep(3000);
-	}
-	
+
 	@AfterClass
 	public void closeBrowser()
 	{
