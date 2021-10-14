@@ -3,21 +3,21 @@
 <suite name="myparametertest" verbose="1">
 
  <test name="wikipage1">
- <parameter name="input1" value="Jmeter Automation"></parameter>
+ <parameter name="input1" value="Selenium Automation"></parameter>
   <classes>
   <class name="testNGScripts.ParameterXML"></class>
   </classes>
 
  </test>
  <test name="wikipage2">
- <parameter name="input1" value="UFT Automation"></parameter>
+ <parameter name="input1" value="Junit Automation"></parameter>
   <classes>
   <class name="testNGScripts.ParameterXML"></class>
   </classes>
 
  </test>
  <test name="wikipage3">
- <parameter name="input1" value="Selenium Automation"></parameter>
+ <parameter name="input1" value="Test Automation"></parameter>
   <classes>
   <class name="testNGScripts.ParameterXML"></class>
   </classes>
