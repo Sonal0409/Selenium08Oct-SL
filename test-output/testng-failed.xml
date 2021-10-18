@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="waitTimes.WaitTimeDemo">
+      <class name="extentreportdemo.ExtentReportScreenshot">
         <methods>
-          <include name="newPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Testcase1"/>
         </methods>
-      </class> <!-- waitTimes.WaitTimeDemo -->
+      </class> <!-- extentreportdemo.ExtentReportScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
