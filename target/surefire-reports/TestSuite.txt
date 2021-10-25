@@ -1,22 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 41.662 s <<< FAILURE! - in TestSuite
-LoginTest(testNGScripts.ParameterXML)  Time elapsed: 1.14 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'username' is required by @Test on method LoginTest but has not been marked @Optional or defined
-in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources\TestRunner3.xml
-
-LoginTest(testNGScripts.ParameterXML)  Time elapsed: 0.925 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'username' is required by @Test on method LoginTest but has not been marked @Optional or defined
-in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources\TestRunner3.xml
-
-LoginTest(testNGScripts.ParameterXML)  Time elapsed: 0.816 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'username' is required by @Test on method LoginTest but has not been marked @Optional or defined
-in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources\TestRunner3.xml
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.882 s <<< FAILURE! - in TestSuite
+EnterInputTest(testNGScripts.ParameterXML)  Time elapsed: 3.497 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 3.000
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-DOBLN3AU', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\sonal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5c19e194b933a503aec3b39f4ce7e05
+	at testNGScripts.ParameterXML.EnterInputTest(ParameterXML.java:35)
 

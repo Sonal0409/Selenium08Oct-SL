@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content failed suite-myparametertest">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="EnterInputTest(Test Automation)">EnterInputTest(Test Automation)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-myparametertest -->
@@ -126,17 +116,12 @@
                     <div class="method-list-content passed suite-myparametertest">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="EnterInputTest(Jmeter Automation)">EnterInputTest(Jmeter Automation)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="EnterInputTest(UFT Automation)">EnterInputTest(UFT Automation)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="EnterInputTest(Selenium Automation)">EnterInputTest(Selenium Automation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-myparametertest" title="testNGScripts.ParameterXML" class="method navigator-link" hash-for-method="EnterInputTest(Junit Automation)">EnterInputTest(Junit Automation)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -189,37 +174,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTest">
-                  </a> <!-- LoginTest -->
-                  <span class="method-name">LoginTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method LoginTest but has not been marked @Optional or defined
-in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources\TestRunner3.xml
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest">
-                  </a> <!-- LoginTest -->
-                  <span class="method-name">LoginTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method LoginTest but has not been marked @Optional or defined
-in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources\TestRunner3.xml
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest">
-                  </a> <!-- LoginTest -->
-                  <span class="method-name">LoginTest</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;username&apos; is required by @Test on method LoginTest but has not been marked @Optional or defined
-in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources\TestRunner3.xml
-... Removed 28 stack frames
+                  <a name="EnterInputTest(Test Automation)">
+                  </a> <!-- EnterInputTest(Test Automation) -->
+                  <span class="method-name">EnterInputTest</span>
+                  <span class="parameters">(Test Automation)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.000
+  (Session info: chrome=94.0.4606.81)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-DOBLN3AU&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\sonal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c5c19e194b933a503aec3b39f4ce7e05
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testNGScripts.ParameterXML.EnterInputTest(ParameterXML.java:35)
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -233,26 +208,18 @@ in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="EnterInputTest(Jmeter Automation)">
-                  </a> <!-- EnterInputTest(Jmeter Automation) -->
-                  <span class="method-name">EnterInputTest</span>
-                  <span class="parameters">(Jmeter Automation)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="EnterInputTest(UFT Automation)">
-                  </a> <!-- EnterInputTest(UFT Automation) -->
-                  <span class="method-name">EnterInputTest</span>
-                  <span class="parameters">(UFT Automation)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="EnterInputTest(Selenium Automation)">
                   </a> <!-- EnterInputTest(Selenium Automation) -->
                   <span class="method-name">EnterInputTest</span>
                   <span class="parameters">(Selenium Automation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterInputTest(Junit Automation)">
+                  </a> <!-- EnterInputTest(Junit Automation) -->
+                  <span class="method-name">EnterInputTest</span>
+                  <span class="parameters">(Junit Automation)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -310,19 +277,19 @@ in C:\Users\sonal\eclipse-workspace\08OctMavenSeleniumProject\src\main\resources
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;myparametertest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;wikipage1&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;input1&quot; value=&quot;Jmeter Automation&quot;/&gt;
+    &lt;parameter name=&quot;input1&quot; value=&quot;Selenium Automation&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testNGScripts.ParameterXML&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- wikipage1 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;wikipage2&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;input1&quot; value=&quot;UFT Automation&quot;/&gt;
+    &lt;parameter name=&quot;input1&quot; value=&quot;Junit Automation&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testNGScripts.ParameterXML&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- wikipage2 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;wikipage3&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;input1&quot; value=&quot;Selenium Automation&quot;/&gt;
+    &lt;parameter name=&quot;input1&quot; value=&quot;Test Automation&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testNGScripts.ParameterXML&quot;/&gt;
     &lt;/classes&gt;
@@ -370,60 +337,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'EnterInputTest')
 data.setCell(0, 2, 'testNGScripts.ParameterXML')
-data.setCell(0, 3, 4832);
+data.setCell(0, 3, 4609);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'EnterInputTest')
 data.setCell(1, 2, 'testNGScripts.ParameterXML')
-data.setCell(1, 3, 4571);
+data.setCell(1, 3, 4547);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'EnterInputTest')
 data.setCell(2, 2, 'testNGScripts.ParameterXML')
-data.setCell(2, 3, 4202);
+data.setCell(2, 3, 3486);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'MainPageTest')
 data.setCell(3, 2, 'testNGScripts.ParameterXML')
-data.setCell(3, 3, 1123);
+data.setCell(3, 3, 948);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'SearchPageTest')
+data.setCell(4, 1, 'MainPageTest')
 data.setCell(4, 2, 'testNGScripts.ParameterXML')
-data.setCell(4, 3, 1040);
+data.setCell(4, 3, 912);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'MainPageTest')
+data.setCell(5, 1, 'SearchPageTest')
 data.setCell(5, 2, 'testNGScripts.ParameterXML')
-data.setCell(5, 3, 913);
+data.setCell(5, 3, 896);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'MainPageTest')
 data.setCell(6, 2, 'testNGScripts.ParameterXML')
-data.setCell(6, 3, 802);
+data.setCell(6, 3, 866);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'SearchPageTest')
 data.setCell(7, 2, 'testNGScripts.ParameterXML')
-data.setCell(7, 3, 615);
+data.setCell(7, 3, 765);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'SearchPageTest')
 data.setCell(8, 2, 'testNGScripts.ParameterXML')
-data.setCell(8, 3, 548);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'LoginTest')
-data.setCell(9, 2, 'testNGScripts.ParameterXML')
-data.setCell(9, 3, 0);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'LoginTest')
-data.setCell(10, 2, 'testNGScripts.ParameterXML')
-data.setCell(10, 3, 0);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'LoginTest')
-data.setCell(11, 2, 'testNGScripts.ParameterXML')
-data.setCell(11, 3, 0);
+data.setCell(8, 3, 705);
 window.suiteTableData['myparametertest']= { tableData: data, tableDiv: 'times-div-myparametertest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-myparametertest">
               </div> <!-- times-div-myparametertest -->
             </div> <!-- times-div -->
@@ -455,60 +410,62 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">EnterInputTest(Jmeter Automation)</span>
-                <span class="method-start">3839 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SearchPageTest</span>
-                <span class="method-start">8673 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">MainPageTest</span>
-                <span class="method-start">9223 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">10356 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">setBrowser</span>
-                <span class="method-start">14679 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">EnterInputTest(UFT Automation)</span>
-                <span class="method-start">17342 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">SearchPageTest</span>
-                <span class="method-start">21545 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">MainPageTest</span>
-                <span class="method-start">22586 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">23501 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">setBrowser</span>
-                <span class="method-start">27713 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
                 <span class="method-name">EnterInputTest(Selenium Automation)</span>
-                <span class="method-start">30402 ms</span>
+                <span class="method-start">3807 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SearchPageTest</span>
-                <span class="method-start">34974 ms</span>
+                <span class="method-start">8418 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">MainPageTest</span>
-                <span class="method-start">35589 ms</span>
+                <span class="method-start">9315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">36395 ms</span>
+                <span class="method-start">10227 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">10446 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EnterInputTest(Junit Automation)</span>
+                <span class="method-start">13560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchPageTest</span>
+                <span class="method-start">18107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MainPageTest</span>
+                <span class="method-start">18813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19679 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setBrowser</span>
+                <span class="method-start">19806 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EnterInputTest(Test Automation)</span>
+                <span class="method-start">22946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchPageTest</span>
+                <span class="method-start">26441 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MainPageTest</span>
+                <span class="method-start">27207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">28155 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

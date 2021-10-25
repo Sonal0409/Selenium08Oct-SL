@@ -1,38 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [myparametertest]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="wikipage1(failed)" verbose="0">
-    <parameter name="input1" value="Jmeter Automation"/>
-    <classes>
-      <class name="testNGScripts.ParameterXML">
-        <methods>
-          <include name="LoginTest"/>
-          <include name="closeBrowser"/>
-          <include name="setBrowser"/>
-        </methods>
-      </class> <!-- testNGScripts.ParameterXML -->
-    </classes>
-  </test> <!-- wikipage1(failed) -->
-  <test thread-count="5" name="wikipage2(failed)" verbose="0">
-    <parameter name="input1" value="UFT Automation"/>
-    <classes>
-      <class name="testNGScripts.ParameterXML">
-        <methods>
-          <include name="LoginTest"/>
-          <include name="closeBrowser"/>
-          <include name="setBrowser"/>
-        </methods>
-      </class> <!-- testNGScripts.ParameterXML -->
-    </classes>
-  </test> <!-- wikipage2(failed) -->
   <test thread-count="5" name="wikipage3(failed)" verbose="0">
-    <parameter name="input1" value="Selenium Automation"/>
+    <parameter name="input1" value="Test Automation"/>
     <classes>
       <class name="testNGScripts.ParameterXML">
         <methods>
-          <include name="LoginTest"/>
           <include name="closeBrowser"/>
           <include name="setBrowser"/>
+          <include name="EnterInputTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- testNGScripts.ParameterXML -->
     </classes>

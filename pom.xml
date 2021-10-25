@@ -98,7 +98,9 @@
 <version>2.21.0</version>
 <configuration>
     <suiteXmlFiles>
-            <suiteXmlFile>src/main/resources/TestRunner3.xml</suiteXmlFile>
+        <!--     <suiteXmlFile>src/main/resources/TestRunner3.xml</suiteXmlFile> -->
+        <suiteXmlFile>src/main/resources/TestRunnerExtent.xml</suiteXmlFile>
+       
           </suiteXmlFiles>
 </configuration>
 </plugin>
